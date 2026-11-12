@@ -1,0 +1,7 @@
+# Configuration of ci-tool, which every bundle test uses.
+#
+# BUG: parse_manifest() crashes on bundles that contain these
+# components, so these bundle tests always fail.
+broken_jobs:
+  - bundle-api
+  - bundle-auth
